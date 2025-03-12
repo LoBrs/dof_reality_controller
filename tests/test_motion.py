@@ -1,6 +1,6 @@
 import time
 import numpy as np
-import config
+from dof_reality import config
 from dof_reality.serial_comm import open_serial_connection, send_command
 
 
