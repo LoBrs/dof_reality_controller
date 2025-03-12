@@ -49,6 +49,7 @@ def test_motion():
         send_command(port, pitch, roll)
         time.sleep(interval)
 
+    send_command(port, 0, 0) # Reset
     print("✅ Test terminé.")
     port.close()
 
