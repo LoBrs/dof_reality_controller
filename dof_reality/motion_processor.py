@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 import time
-import config
-from .serial_comm import send_command
+from dof_reality import config
+from dof_reality.serial_comm import send_command
 
 def play_csv(file_path, port, smoothing_factor):
     """

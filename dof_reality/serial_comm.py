@@ -1,5 +1,5 @@
 import serial
-import config
+from dof_reality import config
 
 def clamp_value(value, min_val, max_val):
     """ Limite une valeur entre min_val et max_val """

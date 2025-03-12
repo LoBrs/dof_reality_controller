@@ -1,6 +1,6 @@
 from dof_reality import config
-from .serial_comm import open_serial_connection
-from .motion_processor import play_csv
+from dof_reality.serial_comm import open_serial_connection
+from dof_reality.motion_processor import play_csv
 
 
 def main():
